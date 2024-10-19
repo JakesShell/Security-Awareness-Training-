@@ -1,4 +1,4 @@
- Security Awareness Training Module
+# Security Awareness Training Module
 
 ## Overview
 
