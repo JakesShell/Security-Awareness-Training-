@@ -4,14 +4,14 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff; /* Light blue background */
     margin: 0;
     padding: 20px;
     color: #333;
 }
 
 header {
-    background: #007bff;
+    background: #007bff; /* Blue header */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -25,12 +25,14 @@ h1 {
 }
 
 h2 {
-    color: #007bff;
+    color: #0056b3; /* Darker blue for subheadings */
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
 }
 
 main {
     margin-top: 20px;
-    background: #fff;
+    background: #ffffff; /* White background for main content */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -43,23 +45,24 @@ p {
 button {
     margin-top: 20px;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #28a745; /* Green button */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Darker green on hover */
 }
 
 footer {
     margin-top: 20px;
     text-align: center;
     font-size: 0.9em;
-    color: #777;
+    color: #555;
 }
 
 #quizContent {
@@ -69,13 +72,22 @@ footer {
 label {
     display: block;
     margin: 10px 0;
-    padding: 5px;
-    background: #f7f7f7;
+    padding: 10px;
+    background: #e7f3fe; /* Light blue for quiz options */
+    border-left: 5px solid #007bff; /* Blue left border */
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 label:hover {
-    background: #e2e2e2;
+    background: #d0e7ff; /* Slightly darker blue on hover */
+}
+
+#results {
+    background: #fff3cd; /* Light yellow for results section */
+    border: 1px solid #ffeeba; /* Yellow border */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
